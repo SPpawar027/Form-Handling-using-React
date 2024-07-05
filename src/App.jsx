@@ -9,9 +9,9 @@ function App (){
     return setusers([...users ,data])
   })
 
-  const handleRemove = ((i)=>{
+  const handleRemove = ((id)=>{
     return (
-        setusers(()=>users.filter((item,index)=>index!=i))
+        setusers(()=>users.filter((item,index)=>index!=id))
     )
   })
 
